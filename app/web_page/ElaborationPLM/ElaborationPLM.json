@@ -1,0 +1,32 @@
+{
+  "id" : "ElaborationPLM",
+  "name" : "ElaborationPLM",
+  "type" : "page",
+  "uuid" : "906fcfb4-d9e8-4f7a-bd0f-545d3c6b0f07",
+  "modelVersion" : "2.4",
+  "lastUpdate" : 1696335941521,
+  "description" : "Page generated with Bonita UI designer",
+  "rows" : [
+    [ ]
+  ],
+  "variables" : { },
+  "assets" : [
+    {
+      "id" : "db94107d-66dd-42b3-9403-c4d81d36e1a8",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "767452f4-c2a6-46f1-9736-784342e0a3c3",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "webResources" : [ ],
+  "hasValidationError" : false
+}

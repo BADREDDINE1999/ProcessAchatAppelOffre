@@ -1,0 +1,32 @@
+{
+  "id" : "FormReceptionPropositionsBudgetaires",
+  "name" : "FormReceptionPropositionsBudgetaires",
+  "type" : "form",
+  "uuid" : "df7214ce-9f11-452e-ac57-2e0b7a9517aa",
+  "modelVersion" : "2.4",
+  "lastUpdate" : 1696347861643,
+  "description" : "Page generated with Bonita UI designer",
+  "rows" : [
+    [ ]
+  ],
+  "variables" : { },
+  "assets" : [
+    {
+      "id" : "561adb6a-7ae9-4451-9409-2178bc8b6066",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "612edcb3-9ca3-4b32-9fd9-d34dbb9e4316",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "webResources" : [ ],
+  "hasValidationError" : false
+}
