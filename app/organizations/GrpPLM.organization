@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="GrpPLM">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="badreddine">
+      <firstName>Badreddine</firstName>
+      <lastName>HOUSNI</lastName>
+      <jobTitle>MOA1</jobTitle>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">badreddine</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="mehdi">
+      <firstName>Mehdi</firstName>
+      <lastName>CHARIFE</lastName>
+      <jobTitle>Admin PMMP1</jobTitle>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">mehdi</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="hamza">
+      <firstName>Hamza</firstName>
+      <lastName>ALAMI</lastName>
+      <jobTitle>Concurrent</jobTitle>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">hamza</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="yassine">
+      <firstName>Yassine</firstName>
+      <lastName>OUHADI</lastName>
+      <jobTitle>Commission d'AO</jobTitle>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">yassine</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Préparer le DAO">
+      <displayName>Préparer le DAO</displayName>
+    </role>
+    <role name="Valider le DAO">
+      <displayName>Valider le DAO</displayName>
+    </role>
+    <role name="Modifier le DAO">
+      <displayName>Modifier le DAO</displayName>
+    </role>
+    <role name="Publier le DAO">
+      <displayName>Publier le DAO</displayName>
+    </role>
+    <role name="Accpter le DAO">
+      <displayName>Accpter le DAO</displayName>
+    </role>
+    <role name="Proposer l'offre">
+      <displayName>Proposer l'offre</displayName>
+    </role>
+    <role name="Compléter les documents">
+      <displayName>Compléter les documents</displayName>
+    </role>
+    <role name="examen et jugement de l'offre">
+      <displayName>examen et jugement de l'offre</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Admin PMMP">
+      <displayName>Admin PMMP</displayName>
+      <description>can administrate users, groups and auth clients.</description>
+    </group>
+    <group name="Concurrent">
+      <displayName>Concurrent</displayName>
+      <description>can view and start new requests.</description>
+    </group>
+    <group name="Maître d'ouvrage">
+      <displayName>Maître d'ouvrage</displayName>
+      <description>can view and start new requests.</description>
+    </group>
+    <group name="Commissions de l'appel d'Offre">
+      <displayName>Commissions de l'appel d'Offre</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>badreddine</userName>
+      <roleName>Préparer le DAO</roleName>
+      <groupName>Maître d'ouvrage</groupName>
+    </membership>
+    <membership>
+      <userName>badreddine</userName>
+      <roleName>Modifier le DAO</roleName>
+      <groupName>Maître d'ouvrage</groupName>
+    </membership>
+    <membership>
+      <userName>mehdi</userName>
+      <roleName>Valider le DAO</roleName>
+      <groupName>Admin PMMP</groupName>
+    </membership>
+    <membership>
+      <userName>mehdi</userName>
+      <roleName>Publier le DAO</roleName>
+      <groupName>Admin PMMP</groupName>
+    </membership>
+    <membership>
+      <userName>hamza</userName>
+      <roleName>Accpter le DAO</roleName>
+      <groupName>Concurrent</groupName>
+    </membership>
+    <membership>
+      <userName>hamza</userName>
+      <roleName>Proposer l'offre</roleName>
+      <groupName>Concurrent</groupName>
+    </membership>
+    <membership>
+      <userName>hamza</userName>
+      <roleName>Compléter les documents</roleName>
+      <groupName>Concurrent</groupName>
+    </membership>
+    <membership>
+      <userName>yassine</userName>
+      <roleName>examen et jugement de l'offre</roleName>
+      <groupName>Commissions de l'appel d'Offre</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
